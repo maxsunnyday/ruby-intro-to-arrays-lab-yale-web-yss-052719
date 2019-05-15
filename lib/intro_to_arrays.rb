@@ -27,5 +27,5 @@ def last_element_with_array_methods(array)
 end
 
 def length_of_array(array)
-  array.index(array[-1])
+  array.index(array[-1]) + 1
 end
